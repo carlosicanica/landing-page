@@ -27,15 +27,68 @@
     gap: 24px;
     color:#e5e7EB;
     font-size: 18px;
+    padding-right: 10%;
 }
 
 .left {
     display: flex;
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 10%;
 }
 
+.content {
+    display: flex;
+    background-color: #1F2937;
+}
 
+.content-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    padding-left: 15%;
+    gap: 16px;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7EB;
+}
+
+.sign-up {
+    width: 125px;
+    height: 50px;
+    font-size: 18px;
+    color: #f9faf8;
+    border-radius: 15px;
+   border: none;
+    background-color: #3882f6;
+}
+
+.placeholder-box {
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    background-color: gray;
+}
 
 .title {
   font-size: 36px;
